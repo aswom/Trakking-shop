@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -20,13 +20,25 @@ a {
   text-decoration: none;
 }
 
+.wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 header {
+  background: url("/img/Livello_1.png");
   background-color: #f6f6f6;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 40px 0;
 }
 
 .grid {
-  max-width: 1235px;
+  width: 100%;
+  max-width: 1150px;
+  height: auto;
   margin: 0 auto;
   background-color: #00cc66;
 }
@@ -74,110 +86,40 @@ header {
   color: #10c9c3;
 }
 
-.header-container nav a:hover .active {
-  color: #191919;
-}
-
-.header-info {
+.header-info .text-info {
   display: -ms-grid;
   display: grid;
-  grid-auto-flow: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 140px auto 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 240px 0 27px;
 }
 
-.header-info h2 {
-  font-size: 38px;
-  line-height: 48px;
-  font-weight: 500;
-  letter-spacing: 0.01em;
-  color: #1d1d1d;
-}
-
-.header-info p {
-  margin: 40px 0;
-  max-width: 480px;
-  font-family: 'Nunito Sans';
-  font-size: 18px;
-  line-height: 28px;
+.header-info .text-info h2 {
+  font-size: 60px;
+  line-height: 1.2;
   font-weight: 400;
-  letter-spacing: 0.005em;
-  color: #787878;
-}
-
-.header-info .btn {
-  display: -ms-grid;
-  display: grid;
-  font-size: 12px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
   color: #ffffff;
-  place-items: center;
-  width: 180px;
-  height: 54px;
-  background-color: #10c9c3;
+  width: 100%;
+  max-width: 800px;
 }
 
-.about {
-  display: -ms-grid;
-  display: grid;
-  grid-auto-flow: column;
-}
-
-.about .about__info {
-  width: 620px;
+.header-info .text-info p {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  width: 100%;
+  max-width: 585px;
   margin: 0 auto;
   text-align: center;
-  padding: 100px 0;
+  margin-bottom: 270px;
 }
 
-.about .about__info h2 {
-  font-size: 30px;
-  line-height: 60px;
-  font-weight: 500;
-  letter-spacing: 0.01em;
-  color: #191919;
-}
-
-.about .about__info p {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  letter-spacing: 0.005em;
-  color: #787878;
-  margin: 35px 0;
-}
-
-.skills__pro {
-  padding: 160px 0px;
-  display: -ms-grid;
-  display: grid;
-  grid-auto-flow: column;
-}
-
-.skills__pro .skills__line h2 {
-  font-size: 30px;
-  line-height: 84px;
-  font-weight: 500;
-  letter-spacing: 0.01em;
-  color: #171717;
-}
-
-.skills__pro .skills__line p {
-  font-size: 12px;
-  line-height: 30px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: #000000;
-}
-
-.skills__pro .skills__line .line {
-  max-width: 500px;
-  border-bottom: 3px solid #10c9c3;
-  margin: 20px 0 40px;
+.header-info .text-info .btn {
+  width: 34px;
+  height: 22px;
+  background-color: #ffffff;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
